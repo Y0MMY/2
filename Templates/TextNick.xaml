@@ -1,0 +1,12 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:launher.Templates">
+
+    <ControlTemplate x:Key="TextNick" TargetType="TextBox">
+        <Grid Width="{TemplateBinding Width}" Height="{TemplateBinding Height}">
+            <Rectangle Fill="{TemplateBinding Background}"/>
+            <ContentControl Content="{TemplateBinding Text}"/>
+        </Grid>
+    </ControlTemplate>
+    
+</ResourceDictionary>

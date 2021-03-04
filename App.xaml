@@ -1,0 +1,15 @@
+﻿<Application x:Class="launher.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:launher"
+             StartupUri="MainMenu.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="./Templates/Button.xaml"/>
+                <ResourceDictionary Source="back.xaml"/>
+                <ResourceDictionary Source="./Templates/TextNick.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

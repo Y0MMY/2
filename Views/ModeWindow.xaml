@@ -1,0 +1,41 @@
+﻿<Window x:Class="launher.ModeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:launher"
+        mc:Ignorable="d" WindowStyle="None" WindowStartupLocation="CenterScreen" ResizeMode="NoResize"
+        Title="ModeWindow" Height="0" Width="400" MinHeight="180" SizeToContent="Height">
+
+    <Window.Background>
+        <ImageBrush ImageSource="../Images/bg.png"/>
+    </Window.Background>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="43*"/>
+            <RowDefinition Height="82*"/>
+            <RowDefinition Height="55*"/>
+        </Grid.RowDefinitions>
+
+
+        <Label x:Name="Header" HorizontalAlignment="Center" Content="Установить мод" VerticalAlignment="Center" FontSize="20" Margin="122,8,122,3"
+               Foreground="LightGray" Height="32" Width="156"/>
+
+        <TextBlock x:Name="tb_description" Grid.Row="1" Margin="20" FontSize="14" Foreground="White"
+                   TextWrapping="Wrap"/>
+
+
+        <WrapPanel Grid.Row="2" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="90,0,90,20" Height="30" Width="220">
+            <Button Content="Отмена" VerticalAlignment="Bottom" HorizontalAlignment="Right"
+                                Width="100" Height="30"  Background="#2FE4FF" FontSize="14"
+                                Template="{StaticResource button}" Margin="0,0,20,0" Click="Button_Click"/>
+            <Button Content="Установить" VerticalAlignment="Bottom" HorizontalAlignment="Right"
+                                Width="100" Height="30"  Background="#2FE4FF" FontSize="14" Click="Button_Click_1"
+                                Template="{StaticResource button}" />
+        </WrapPanel>
+
+    </Grid>
+
+
+</Window>
+    

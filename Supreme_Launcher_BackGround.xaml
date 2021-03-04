@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	<DrawingBrush x:Key="Layer_1" Stretch="Uniform">
+		<DrawingBrush.Drawing>
+			<DrawingGroup>
+				<DrawingGroup.Children>
+					<DrawingGroup ClipGeometry="F1 M 0,933.333L 1333.33,933.333L 1333.33,0L 0,0L 0,933.333 Z ">
+						<DrawingGroup.Children>
+							<DrawingGroup>
+								<DrawingGroup.Transform>
+									<MatrixTransform Matrix="1.33333,0,0,1.33333,0,-2.03451e-005"/>
+								</DrawingGroup.Transform>
+								<DrawingGroup.Children>
+									<ImageDrawing ImageSource="Supreme_Launcher_BackGround_files/image0.png" Rect="0,0,1000,700"/>
+								</DrawingGroup.Children>
+							</DrawingGroup>
+							<DrawingGroup>
+								<DrawingGroup.Transform>
+									<MatrixTransform Matrix="1.33333,0,0,1.33333,0,-2.03451e-005"/>
+								</DrawingGroup.Transform>
+								<DrawingGroup.Children>
+									<ImageDrawing ImageSource="Supreme_Launcher_BackGround_files/image1.png" Rect="0,0,1000,700"/>
+								</DrawingGroup.Children>
+							</DrawingGroup>
+						</DrawingGroup.Children>
+					</DrawingGroup>
+					<DrawingGroup ClipGeometry="F1 M 6.66667,0.00128174C 2.98533,0.00128174 0.00133333,2.98535 0.00133333,6.66663L 0.00133333,6.66663L 0.00133333,926.667C 0.00133333,930.349 2.98533,933.332 6.66667,933.332L 6.66667,933.332L 1326.67,933.332C 1330.35,933.332 1333.33,930.349 1333.33,926.667L 1333.33,926.667L 1333.33,6.66663C 1333.33,2.98535 1330.35,0.00128174 1326.67,0.00128174L 1326.67,0.00128174L 6.66667,0.00128174 Z ">
+						<DrawingGroup.Children>
+							<DrawingGroup>
+								<DrawingGroup.Transform>
+									<MatrixTransform Matrix="1.33333,0,0,1.33333,0,-2.03451e-005"/>
+								</DrawingGroup.Transform>
+								<DrawingGroup.Children>
+									<ImageDrawing ImageSource="Supreme_Launcher_BackGround_files/image2.png" Rect="0,0,1000,700"/>
+								</DrawingGroup.Children>
+							</DrawingGroup>
+						</DrawingGroup.Children>
+					</DrawingGroup>
+				</DrawingGroup.Children>
+			</DrawingGroup>
+		</DrawingBrush.Drawing>
+	</DrawingBrush>
+</ResourceDictionary>

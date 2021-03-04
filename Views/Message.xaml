@@ -1,0 +1,27 @@
+﻿<Window x:Class="launher.Message"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:launher" WindowStartupLocation="CenterScreen"
+        mc:Ignorable="d" WindowStyle="None" ResizeMode="NoResize"
+        Title="Message" Height="250" Width="350">
+    
+    <Window.Background>
+        <ImageBrush ImageSource="../Images/bg.png"/>
+    </Window.Background>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Label Name="lbl_text" Grid.Row="0" FontSize="20" Foreground="White"
+               HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,40,0,0"/>
+
+        <WrapPanel Grid.Row="1" Name="wp_buttons" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+
+    </Grid>
+</Window>

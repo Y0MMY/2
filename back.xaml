@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	<DrawingBrush x:Key="back" Stretch="Uniform">
+		<DrawingBrush.Drawing>
+			<DrawingGroup>
+				<DrawingGroup.Children>
+					<DrawingGroup>
+						<DrawingGroup.Transform>
+							<MatrixTransform Matrix="1.33333,0,0,1.33333,342.667,21.3333"/>
+						</DrawingGroup.Transform>
+						<DrawingGroup.Children>
+							<ImageDrawing ImageSource="Back/image0.png" Rect="0,0,999,700"/>
+						</DrawingGroup.Children>
+					</DrawingGroup>
+					<DrawingGroup>
+						<DrawingGroup.Transform>
+							<MatrixTransform Matrix="1.33333,0,0,1.33333,342.667,21.3333"/>
+						</DrawingGroup.Transform>
+						<DrawingGroup.Children>
+							<ImageDrawing ImageSource="Back/image1.png" Rect="0,0,999,700"/>
+						</DrawingGroup.Children>
+					</DrawingGroup>
+					<ImageDrawing ImageSource="Back/image2.png" Rect="890,54,200,98"/>
+					<DrawingGroup Opacity="0.360784">
+						<DrawingGroup.Transform>
+							<MatrixTransform Matrix="1.33333,0,0,1.33333,-1.01725e-005,-1.01725e-005"/>
+						</DrawingGroup.Transform>
+						<DrawingGroup.Children>
+							<ImageDrawing ImageSource="Back/image3.png" Rect="0,0,1329,748"/>
+						</DrawingGroup.Children>
+					</DrawingGroup>
+					<DrawingGroup Opacity="0.258824">
+						<DrawingGroup.Transform>
+							<MatrixTransform Matrix="1.33333,0,0,1.33333,342.667,21.3333"/>
+						</DrawingGroup.Transform>
+						<DrawingGroup.Children>
+							<ImageDrawing ImageSource="Back/image4.png" Rect="0,0,1245,700"/>
+						</DrawingGroup.Children>
+					</DrawingGroup>
+				</DrawingGroup.Children>
+			</DrawingGroup>
+		</DrawingBrush.Drawing>
+	</DrawingBrush>
+</ResourceDictionary>
